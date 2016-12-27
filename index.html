@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /> 
+  <title>index</title> 
+  <link rel="stylesheet" href="css/common/common.css" charset="utf-8" />
+  <link rel="stylesheet" href="css/default/index.css" charset="utf-8" />
+</head> 
+ <body>
+    
+  <div class="bodywrap">
+  <section class="clearfix banner">
+    <h1 class="banner-h">签到成功即送大礼包</h1>
+    <img width="100%" class="fl scrollLoading hotBrand-img" alt="欢迎参加重庆第二届惠民团车节" src="images/common/blank.gif" data-url="images/default/banner.jpg" /> 
+  </section>  
+  <section>
+    <div class="signupForm">           
+      <div class="signupForm-con">
+		<input type='hidden' id="cityId" value="10"/>
+        <input id="mobile" class="mobile" type="tel" name="tel" maxlength="11" placeholder="请输入手机号"  />
+      </div>          
+    </div>
+  </section>
+  <section class="channel-sec">
+    <h2 class="channel-sec-tit">您是通过哪些媒体获知本届车展信息的？</h2>
+    <ul class="clearfix channel" id="channel"></ul>
+  </section>
+  <button disabled="disabled" class="registerBtn registerBtn-gray" type="button" id="registerBtn">签到</button>
+  </div>
+ </body>
+ <script>
+	var context="http://t.m.tuanche.com";
+ </script>
+ <script type="text/javascript" src="script/lib/zepto.min.js"></script>
+ <script type="text/javascript" src="script/lib/zepto.scrollLoading.js"></script>
+ <script type="text/javascript" src="script/common/common.js"></script>
+ <script type="text/javascript" src="script/default/index.js"></script>
+</html>
